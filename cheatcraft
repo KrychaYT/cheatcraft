@@ -1,0 +1,54 @@
+StartAfk=NUMPAD4
+ExitApp=NUMPAD5
+Hotkey,%StartAfk%,Start
+Hotkey,%ExitApp%,Exit
+Return
+Exit:
+ExitApp
+Return
+Start:
+loop{
+sleep 50
+Send, /
+sleep 50
+Send, sellall
+sleep 100
+send, {return}
+sleep, 800
+Send, /
+sleep 50
+Send, sellall
+sleep 100
+send, {return}
+sleep, 800
+Send, /
+sleep 50
+Send, sellall
+sleep 100
+send, {return}
+sleep, 800
+Send, /
+sleep 50
+Send, sellall
+sleep 100
+send, {return}
+sleep, 800
+Send, /
+sleep 50
+Send, sellall
+sleep 100
+send, {return}
+sleep, 800
+Send, /
+sleep 50
+Send, sellall
+sleep 100
+send, {return}
+sleep, 800
+Send, /
+sleep 50
+Send, repair
+sleep 100
+send, {return}
+sleep, 800
+}
